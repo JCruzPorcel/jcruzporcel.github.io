@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+@media(min-width:1200px){
+    body{
+        display: flex;
+        width: 100%;
+        min-height: 100vh;
+        background: linear-gradient(45deg, #242F36,#161d2c);
+    }
+
+    header{
+        width: 100%;
+        padding: 50px 0px;
+        transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        z-index: 9999;
+        top: 0;
+        position: fixed;
+    }
+
+    .container{
+        width: 100%;
+        position: fixed;
+        background-color: rgb(25, 25, 25);
+        border-bottom-right-radius: 20px 20px;
+        border-bottom-left-radius: 20px 20px;
+        text-shadow: 3px 3px #1b1b1b;
+        top: 0;
+    }
+
+    .container ul,ol{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        list-style: none;
+        justify-content: center;
+        text-align: left;
+        margin: 0 auto;
+        display: flex;
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .radius:hover{
+        border-radius: 500px;
+        border-end-end-radius: 50px;
+    }
+
+    .navItems li a {
+        color: white;
+        background-color: rgb(25, 25, 25);
+        text-decoration: none;
+        padding: 50px 50px;
+        display: block;
+        opacity: .9;
+        transition: .2s;
+    }
+
+    #games li a{
+        padding: 50px 47px;
+    }
+
+    .lastLi a{
+        border-bottom-right-radius: 20px 20px;
+        border-bottom-left-radius: 20px 20px;
+    }
+
+    .navItems li a{
+        transition-duration: 500ms;
+    }
+
+    .navItems li a:hover{
+        opacity: 1;
+        background: rgb(35, 35, 35);
+        text-decoration: underline;
+    }
+
+    .navItems > li {
+        float: left;
+    }
+
+    .navItems li ul {
+        display: none;
+        position: absolute;
+        min-width: 140px;
+    }
+
+    .navItems li:hover > ul{
+        display: block;
+    }
+
+    #containerBody{
+        height: 100%;
+        width: 100%;
+    }
+
+    .autoTypeBox{
+        margin-top: 150px;
+        width: 100%;
+        height: 50vh;
+        background: linear-gradient(45deg,#2e4068,#12222b);
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        padding: 3%;
+    }
+
+    .autoTypeBox h1{
+        font-size: 60px;
+        font-weight: 600;
+        text-shadow: 3px 3px #1b1b1b;
+    }
+
+    .auto-type{
+        color: rgb(48, 190, 90);
+    }
+
+    .item{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5%;
+        padding-top: 15%;
+        color: white;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .item h2{
+        font-size: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration:underline;
+        text-shadow: 2px 2px #1b1b1b;
+    }
+    .item h3{
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 5%;
+        padding-bottom: 3%;
+        text-transform: uppercase;
+        text-decoration: underline;
+        text-shadow: 3px 3px #1b1b1b;
+    }
+
+    .item h4{
+        text-align: center;
+        padding-bottom: 0;
+        font-size: 40px;
+        margin-bottom: 0;
+        padding-top: 5%;
+        text-shadow: 2px 2px #1b1b1b;
+    }
+
+    .item p{
+        font-size: 20px;
+        padding-top: 5%;
+        padding-left: 15%;
+        padding-right: 15%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-shadow: 2px 2px #1b1b1b;
+    }
+
+    #news{
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(1deg,#3c5064,#12222b);
+        padding: 5%;
+    }
+
+    .item img{
+        width: 75%;
+        height: 75%;
+        padding: 5%;
+        margin: 0px auto;
+        padding-bottom: 0;
+        padding-top: 2%;
+        display: block;
+    }
+
+    footer{
+        margin: 0px auto;
+        font-size: 16px;
+        color: whitesmoke;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
