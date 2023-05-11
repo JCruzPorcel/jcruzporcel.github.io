@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JCode</title>
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <Header>
+        <nav class="container">
+            <ul class="navItems">
+
+                <li><a class= "radius" href="#">Inicio</a></li>
+
+                <li>
+                    <a class= "radius" href="#">Sobre mí</a>
+                        <ul>
+                            <li><a href="#">Currículum vitae</a></li>
+                            <li><a href="#">Constancias</a></li>
+                            <li class="lastLi"><a href="#">Portafolios</a></li>
+                        </ul>
+                </li>
+
+                <li>
+                    <a class= "radius" href="#projects">Proyectos</a>
+                        <ul>
+                            <li><a href="#">Proyectos Web</a></li>
+                            <li><a href="#">Proyectos dxe Software</a></li>
+                            <li class="lastLi"><a href="#">Prototipos</a></li>
+                        </ul>
+                </li>
+
+                <li>
+                    <a class= "radius" href="#games">Juegos</a>
+                        <ul id="games">
+                            <li><a href="#">Android</a></li>
+                            <li class="lastLi"><a href="#">PC</a></li>
+                        </ul>
+                </li>
+                
+                <li><a class= "radius" href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </Header>
+
+    <div id="containerBody">
+    <div class="autoTypeBox">
+        <h1>Soy <span class="auto-type"></span></h1>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>       
+        var typed = new Typed(".auto-type", {
+            strings : ["Game Dev.", "Desarrollador Web.", "Desarrollador de Software.", "Programador."],
+            typeSpeed: 45,
+            backSpeed: 50,
+            loop: true
+        })
+    </script>
+
+    
+    <div class="item">
+        <h2>Ultimas Actualizaciones</h2>
+        <div id="news">
+            <h3>Proximo proyecto:</h3>
+            <h4>Unknown Proyect Survivor</h4>
+            <img src="Img/Vampire Survivor.jpg" alt="VampireSurvivorIMG">
+            <p>Uno de mis proximos proyectos por lanzar es un videojuego inspirado en <cite>Vampire Survivor.</cite>
+                Este es un juego Rogue-Like, en el cual el progreso de la partida se pierde al morir, en su siguiente partida el jugador contara con potenciadores que podra subir al inicio de cada ronda.
+                <br>Se prevee que el juego este terminado para principios del mes entrante. <time datetime="2022/09/26"pubdate>~Noviembre de 2022~</time> </p>
+                <p style="padding-top: 3%;">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, voluptas beatae, perferendis tenetur expedita esse culpa nam impedit possimus eaque sequi aliquam deleniti, ipsa distinctio quas. Eaque dolor soluta rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nesciunt, distinctio at quod aliquam, harum tempore quos neque iure alias voluptas hic molestiae laborum placeat voluptatem incidunt error sequi cupiditate.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, nihil iusto soluta reprehenderit aspernatur est quisquam totam et obcaecati blanditiis ipsum possimus quo voluptates accusantium nostrum, accusamus cum doloremque adipisci.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam incidunt, doloremque nostrum sed inventore et perspiciatis, voluptate at, voluptas architecto praesentium in voluptatum placeat magnam necessitatibus nisi veniam a minima.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, molestias magnam. Ratione libero voluptate tenetur aspernatur nobis asperiores soluta ducimus quae ut nam! Architecto soluta error, esse hic odit modi.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, sed amet. Asperiores perspiciatis earum ullam facere nostrum veniam repellat aperiam atque, sint neque tempora illo praesentium ad laboriosam saepe unde.</p>
+        </div>
+    </div>
+    <footer>
+        <small>
+            © 2022 JCode. Todos los derechos reservados.
+            Cualquier consulta contactar con:<address>PerezPorcel.JuanCruz@Gmail.com</address>
+        </small>
+    </footer>
+    </div>
+
+</body>
+</html>
